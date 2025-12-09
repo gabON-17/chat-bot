@@ -1,0 +1,22 @@
+{
+  "name": "chat-boot",
+  "version": "1.0.0",
+  "description": "Chat boot para o trabalho da Proz Educação",
+  "license": "ISC",
+  "author": "Gabriel H",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "build:dev": "tsc -w",
+    "dev": "nodemon ./dist/server.js",
+    "start": "node ./dist/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.31.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
