@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-export interface RouterExpress {
+export interface RouteExpress {
   routing(): void;
   getRouter(): Router;
 }
